@@ -1,3 +1,6 @@
+.git
+.gitignore
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -139,5 +142,3 @@ dmypy.json
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
-
-.gitignore

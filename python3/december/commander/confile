@@ -1,0 +1,7 @@
+pwd
+df -kh .
+date
+hostname
+ls -lSrh
+#sudo apt-get update
+#sudo apt-get upgrade
