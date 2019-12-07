@@ -12,7 +12,7 @@ Só não se esqueça de dar crédito ao autor, eu! =p
 ## Bob Tools
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/datalivre)
 
-* December/2019
+* 06/December/2019
     - [x] [COMPYRE](/python3/december/compyre/compyre.py) - script que abre dois arquivos de texto, transforma-os em listas, compara linha a linha a primeira lista com a segunda e retorna a diferença entre as duas.
     - Argumentos:
       - usage: compyre.py [-h] [-f1 FILE1] [-f2 FILE2]
@@ -25,6 +25,7 @@ Só não se esqueça de dar crédito ao autor, eu! =p
        
          `python compyre.py -f1 file1 -f2 file2`
 ---
+* 07/December/2019
     - [x] [COMMANDER](/python3/december/commander/commander.py) - este script executa uma lista de comandos no host local. Pode ser usado para automatizar rotinas ou facilitar processo de instalação ou atulização de software.
     - Argumentos:
       - usage: Executa um ou mais comandos no host local. [-h] [-c CMD]
