@@ -48,8 +48,9 @@ def cpyf(f_get_distrito, f_rand_cpf, distrito, cpfin):
         for peso in [10, 9, 8, 7, 6, 5, 4, 3, 2], [11, 10, 9, 8, 7, 6, 5, 4, 3, 2]:
             resto = sum(np.multiply(cpf, peso)) % 11
             cpf.append(0 if resto < 2 else 11 - resto)
+        cpf = ''.join(str(n) for n in cpf)
         if cpfin is not None:
-            return (''.join(str(n) for n in cpf) == cpfin)
+            return cpf == cpfin
         return cpf
     except TypeError:
         print("Certifique-se de ter inserido um valor válido.")
