@@ -38,3 +38,18 @@ Só não se esqueça de dar crédito ao autor, eu! =p
     - Você pode colocar os dois arquivos de texto ao lado do script **compyre** e então executá-lo com `python compyre.py`. Atenção ao nome do primeiro e segundo arquivo: **file1** e **file2**, respectivamente. Alternativamente, você pode usar a linha de comando:
        
          `python compyre.py -f1 file1 -f2 file2`
+      
+- [x] [CPYF](/python3/december/cpyf) 
+- Gerador e validador de CPF com a possibilidade de escolha de estado. 
+  - Argumentos:
+    - usage: cpyf.py [-h] [-d DIST] [-c CPF]
+    - optional arguments:
+        * -h, --help  show this help message and exit
+        * -d DIST     insira o nome de um estado brasileiro.
+        * -c CPF      insira um cpf para ser verificado.
+  - Como usar:
+    - Você pode simplismente executar este script com `python cpyf.py` que resultara num número válido de CPF. Já por linha de comando, você pode usar um dos dois argumentos disponíveis: **-d** ou **-c**, o estado e o número de cpf, respectivamente. Ao inserir um argumento para -d um número de CPF válido para o estado escolhido será gerado. Ao inserir um argumento válido para -c, o script testará o CPF inserido e retornará True se for válido, False para inválido. Exemplo de uso:
+       
+         `python cpyf.py -d "Minas Gerais"`
+         `python cpyf.py -c 01234567890`
+         
