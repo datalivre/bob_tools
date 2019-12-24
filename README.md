@@ -48,8 +48,9 @@ Só não se esqueça de dar crédito ao autor, eu! =p
         * -d DIST     insira o nome de um estado brasileiro.
         * -c CPF      insira um cpf para ser verificado.
   - Como usar:
-    - Você pode simplismente executar este script com `python cpyf.py` que resultara num número válido de CPF. Já por linha de comando, você pode usar um dos dois argumentos disponíveis: **-d** ou **-c**, o estado e o número de cpf, respectivamente. Ao inserir um argumento para -d um número de CPF válido para o estado escolhido será gerado. Ao inserir um argumento válido para -c, o script testará o CPF inserido e retornará True se for válido, False para inválido. Exemplo de uso:
+    - Você pode simplismente executar este script com `python cpyf.py` que resultara num número válido de CPF. Já por linha de comando, você pode usar um dos dois argumentos disponíveis: **-d** ou **-c**, o estado e o número de cpf, respectivamente. Ao inserir um argumento para -d, um número de CPF válido para o estado escolhido será gerado. Ao inserir um argumento válido para -c, o script testará o CPF inserido e retornará True se for válido, False para inválido. Exemplo de uso:
        
          `python cpyf.py -d "Minas Gerais"`
+         
          `python cpyf.py -c 01234567890`
          
