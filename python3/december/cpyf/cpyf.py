@@ -1,3 +1,8 @@
+# _*_ coding:utf-8 _*_
+# @author Robert Carlos                 #
+# email robert.carlos@linuxmail.org     #
+# 2019-Dec (CC BY 3.0 BR)               #
+
 import argparse
 import errno
 from random import randint
@@ -27,7 +32,7 @@ def rand_cpf(f_get_distrito, distrito, cpf):
         try:
             return list([int(n) for n in cpf])[:-2]
         except ValueError:
-            print("Certifique-se de ter inserido um número válido.")
+            print("Certifique-se de ter inserido um valor válido.")
             exit(errno.EPERM)
     else:
         cpf = [randint(0, 9) for _ in range(0, 9)]
@@ -47,10 +52,10 @@ def cpyf(f_get_distrito, f_rand_cpf, distrito, cpfin):
             return (''.join(str(n) for n in cpf) == cpfin)
         return cpf
     except TypeError:
-        print("Certifique-se de ter inserido um número válido.")
+        print("Certifique-se de ter inserido um valor válido.")
         exit(errno.EPERM)
     except ValueError:
-        print("Certifique-se de ter inserido um número válido.")
+        print("Certifique-se de ter inserido um valor válido.")
         exit(errno.EPERM)
 
 
